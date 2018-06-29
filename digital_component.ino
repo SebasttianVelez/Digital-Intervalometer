@@ -5,7 +5,7 @@ int estado = LOW;
 
 void setup(){
 
-	pinMode(PULSADOR, INPUT); // Pulsador entrada
+	pinMode(PULSADOR, INPUT); // Pulsador entrada in
   	pinMode(LED, OUTPUT);	  // Led salida
 	
   	digitalWrite(LED, LOW);   //APAGAR EL LED
